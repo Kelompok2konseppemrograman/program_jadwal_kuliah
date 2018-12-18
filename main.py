@@ -1,8 +1,8 @@
 from tkinter import *
 from window import myWindow
 import lib
-import this_day_schadule as tds
-import search_box_funtion as sbf
+from this_day_schadule import main
+from search_box_funtion import box
 
 
 #title
@@ -15,10 +15,10 @@ while (pilihan < 3):
     if(pilihan==3 | pilihan==0):
         break
     elif(pilihan==1):
-        tds.main()
+        main()
         break
     elif(pilihan==2):
-        sbf.box()
+        box()
         break
 
 #This day schadule

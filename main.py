@@ -1,5 +1,5 @@
 #rizky jelek
-
+#rizky
 #rizky ganteng
 from tkinter import *
 from window import myWindow

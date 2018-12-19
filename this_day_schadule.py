@@ -31,11 +31,7 @@ def main():
 		display +="\n--------------------------------------------"
 		display +="\n{} | {} | {}\n{}\n".format(dicti.dict_mapel["k"], dicti.dict_waktu["d"], dicti.dict_kelas["e"], dicti.dict_dosen["k"])
 	elif(hari == "Friday"):
-		display +="\n{}\n{} | {} | {}\n{}".format(dicti.dict_hari["e"], dicti.dict_mapel["h"], dicti.dict_waktu["a"], dicti.dict_kelas["c"], dicti.dict_dosen["h"])
-		display +="\n--------------------------------------------"
-		display +="\n{} | {} | {}\n{}".format(dicti.dict_mapel["i"], dicti.dict_waktu["b"], dicti.dict_kelas["c"], dicti.dict_dosen["i"])
-		display +="\n--------------------------------------------"
-		display +="\n{} | {} | {}\n{}".format(dicti.dict_mapel["k"], dicti.dict_waktu["d"], dicti.dict_kelas["a"], dicti.dict_dosen["k"])
+		display +="JADWAL kosong"
 	elif(hari == "Saturday"):
 		display +="JADWAL KOSONG"
 	elif(hari == "Sunday"):

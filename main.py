@@ -1,6 +1,3 @@
-#rizky jelek
-#futri
-#rizky ganteng
 from tkinter import *
 from window import myWindow
 import this_day_schadule as tds

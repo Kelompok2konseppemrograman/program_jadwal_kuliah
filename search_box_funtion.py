@@ -24,6 +24,7 @@ def box():
         display +="\n{}\n{} | {} | {}\n{}".format(dicti.dict_hari["c"], dicti.dict_mapel["d"], dicti.dict_waktu["a"], dicti.dict_kelas["i"], dicti.dict_dosen["d"])
         display +="\n--------------------------------------------"
         display +="\n{} | {} | {}\n{}".format(dicti.dict_mapel["e"], dicti.dict_waktu["b"], dicti.dict_kelas["a"], dicti.dict_dosen["e"])
+        display +="Jadwal Tambahan"
     elif input_ == "KAMIS":
         sunken +="JADWAL HARI KAMIS"
         display +="\n{}\n{} | {} | {}\n{}".format(dicti.dict_hari["d"], dicti.dict_mapel["g"], dicti.dict_waktu["b"], dicti.dict_kelas["f"], dicti.dict_dosen["g"])
